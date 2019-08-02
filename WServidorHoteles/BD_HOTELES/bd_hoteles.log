@@ -1,0 +1,42 @@
+/*C1*/SET SCHEMA SYSTEM_LOBS
+INSERT INTO BLOCKS VALUES(0,2147483647,0)
+COMMIT
+/*C3*/SET SCHEMA PUBLIC
+CREATE TABLE HOTEL\u000a(\u000a    ID_HOTEL VARCHAR(20),\u000a    NOMBRE_HOTEL VARCHAR(50),\u000a    CIUDAD_HOTEL VARCHAR(30),\u000a    TIPO_HAB VARCHAR(50),\u000a    DESCR_HAB VARCHAR (50),\u000a    COSTO_HAB VARCHAR (20),\u000a\u000a    PRIMARY KEY (ID_HOTEL)\u000a)
+drop table "PUBLIC"."HOTEL"
+CREATE TABLE HOTEL\u000a(\u000a    ID_HOTEL VARCHAR(20),\u000a    NOMBRE_HOTEL VARCHAR(50),\u000a    CIUDAD_HOTEL VARCHAR(30),\u000a    TIPO_HAB VARCHAR(50),\u000a    DESCR_HAB VARCHAR (50),\u000a    COSTO_HAB VARCHAR (20),\u000a\u000a    PRIMARY KEY (ID_HOTEL)\u000a)
+drop table "PUBLIC"."HOTEL"
+CREATE TABLE HOTEL\u000a(\u000a    ID_HOTEL VARCHAR(20),\u000a    NOMBRE_HOTEL VARCHAR(50),\u000a    CIUDAD_HOTEL VARCHAR(30),\u000a    TIPO_HAB VARCHAR(50),\u000a    DESCR_HAB VARCHAR (50),\u000a    COSTO_HAB VARCHAR (20),\u000a\u000a    \u000a)
+INSERT INTO HOTEL VALUES('11','San Martin','Cartagena','Sencilla','Cama, Tv, Aire acondicionado','150000')
+COMMIT
+INSERT INTO HOTEL VALUES('11','San Martin','Cartagena','Doble','Dos camas, Tv, Aire acondicionado','300000')
+COMMIT
+INSERT INTO HOTEL VALUES('12','El Dorado','San Andres','Sencilla','Cama, Tv, Aire acondicionado','250000')
+COMMIT
+INSERT INTO HOTEL VALUES('12','El Dorado','San Andres','Doble','Dos camas, Tv, Aire acondicionado','500000')
+COMMIT
+INSERT INTO HOTEL VALUES('13','Altos de Fontana','Managua','Sencilla','Cama, Tv, Aire acondicionado','350000')
+COMMIT
+INSERT INTO HOTEL VALUES('13','Altos de Fontana','Managua','Doble','Dos camas, Tv, Aire acondicionado','700000')
+COMMIT
+INSERT INTO HOTEL VALUES('14','Conde Luna','Le\u00f3n','Sencilla','Cama, Tv, Aire acondicionado','450000')
+COMMIT
+INSERT INTO HOTEL VALUES('14','Conde Luna','Le\u00f3n','Doble','Dos camas, Tv, Aire acondicionado','900000')
+COMMIT
+INSERT INTO HOTEL VALUES('15','H\u00f3tel D\u00e9clic','Paris','Sencilla','Cama, Tv, Aire acondicionado','550000')
+COMMIT
+INSERT INTO HOTEL VALUES('15','H\u00f3tel D\u00e9clic','Paris','Doble','Dos camas, Tv, Aire acondicionado','1100000')
+COMMIT
+INSERT INTO HOTEL VALUES('16','Paradis','Lourdes','Sencilla','Cama, Tv, Aire acondicionado','650000')
+COMMIT
+INSERT INTO HOTEL VALUES('16','Paradis','Lourdes','Doble','Dos camas, Tv, Aire acondicionado','1300000')
+COMMIT
+INSERT INTO HOTEL VALUES('17','Caravel','Roma','Sencilla','Cama, Tv, Aire acondicionado','750000')
+COMMIT
+INSERT INTO HOTEL VALUES('17','Caravel','Roma','Doble','Dos camas, Tv, Aire acondicionado','1500000')
+COMMIT
+INSERT INTO HOTEL VALUES('18','Belmond Hotel Cipriani','Venecia','Sencilla','Cama, Tv, Aire acondicionado','850000')
+COMMIT
+INSERT INTO HOTEL VALUES('18','Belmond Hotel Cipriani','Venecia','Doble','Dos camas, Tv, Aire acondicionado','1700000')
+COMMIT
+DISCONNECT
